@@ -1,0 +1,9 @@
+function extractNumbers(text){
+    arr=[]
+    for (let i of text) {
+        if (!isNaN(i) && i != ' '){
+            arr.push(+i)    
+        }
+    }
+    return arr
+}

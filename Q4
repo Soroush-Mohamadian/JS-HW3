@@ -1,0 +1,7 @@
+function findByItem(arr,item){
+      for (let i = 0, length = arr.length; i < length; i++) {
+          if(arr[i]==item){
+              console.log(`index:${i}, item:${item}`)
+          }
+      }
+}

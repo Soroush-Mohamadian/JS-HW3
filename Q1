@@ -1,0 +1,11 @@
+function deleteByIndex(arr, index){
+    tempArr=[]
+    for(let i in arr){
+        if (i!=index){
+            tempArr.push(+i)
+        }
+    }
+    return arr=tempArr
+}
+
+    

@@ -1,0 +1,12 @@
+function removeDuplicates(arr){
+    for (let i = 0 ; i < arr.length ; i++){
+        for (let j = 0 ; j < arr.length ; j++){
+            if (arr[i] == arr[j] && j!=i ){ delete(arr[j]) }
+        }
+    }
+    let tempArr=[]
+    for (let item of arr){
+        if (!isNaN(item)){tempArr.push(item)}
+    }
+    return arr=tempArr
+}

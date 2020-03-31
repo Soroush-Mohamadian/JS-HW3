@@ -1,0 +1,8 @@
+function combineArrays(arr1,arr2,arr3){
+    combinedArr=arr1.concat(arr2,arr3)
+    combinedArr.sort(function(a, b){return b-a});
+    return combinedArr.reverse()
+}
+
+   
+    
